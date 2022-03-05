@@ -9,15 +9,9 @@ module.exports = {
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
         sidebar: [
-            // SidebarItem
             {
-                text: 'new Vue',
-                children: [
-                    {
-                        text: 'github',
-                        children: ['/guide/index.md','/guide/newVue.md']
-                    },
-                ],
+                text: "new Vue",
+                children: ["/guide/index.md", "/guide/newVue.md"],
             },
             // 字符串 - 页面文件路径
         ],
